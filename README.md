@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/adi-develops/product-card)
-- Live Site URL: [Add live site URL here](https://adi-develops.github.io/product-card/)
+- Solution URL: [https://github.com/adi-develops/product-card](https://github.com/adi-develops/product-card)
+- Live Site URL: [https://adi-develops.github.io/product-card/](https://adi-develops.github.io/product-card/)
 
 ## My process
 
