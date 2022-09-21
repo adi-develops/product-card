@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap");
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  font-size: 14px;
+}
+
+@media screen and (min-width: 376px) {
+
+.main {
+  display: flex;
+  background-color: white;
+  width: 700px;
+  height: 500px;
+  margin: auto;
+  margin-top: 180px;
+  border-radius: 10px;
+}
+
+.main .perfume {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.text {
+  margin-left: 40px;
+}
+
+.atc {
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  display: block;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  padding: 18px 80px;
+  margin: 22px auto auto 0;
+}
+
+.atc:hover {
+  background-color: hsl(159, 36%, 20%);
+}
+
+.real-price {
+  background-color: white;
+  color: hsl(158, 36%, 37%);
+  font-family: Fraunces;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.price {
+  font-family: Montserrat;
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+  position: relative;
+  left: 20px;
+  bottom: 6px;
+}
+
+.mont-perfume {
+  font-family: Montserrat;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+  display: inline;
+  position: relative;
+  top: 35px;
+}
+
+.mont-desc {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  color: hsl(228, 12%, 48%);
+  line-height: 1.5;
+  margin-bottom: 30px;
+  padding-right: 50px;
+}
+
+.fraun-title {
+  font-family: Fraunces;
+  font-size: 38px;
+  line-height: 1;
+  padding-right: 50px;
+  color: hsl(212, 21%, 14%);
+  position: relative;
+  top: 20px;
+  margin-block-end: 45px;
+}
+}
+
+
+@media screen and (max-width: 376px) {
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  .main {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    margin-top: 20px;
+  }
+
+  .perfume {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 270px;
+    object-fit: cover;
+  }
+
+  .text {
+    background-color: white;
+    height: 350px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .mont-perfume {
+    font-family: Montserrat;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    margin: 20px 0 0 25px;
+  }
+
+  .fraun-title {
+    font-family: Fraunces;
+    font-size: 28px;
+    line-height: 1;
+    padding-right: 50px;
+    color: hsl(212, 21%, 14%);
+    margin: 15px 0 0 25px;
+  }
+
+  .mont-desc {
+    font-family: Montserrat;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.5;
+    margin: 20px 0 20px 25px;
+    padding-right: 25px;
+  }
+
+  .real-price {
+    color: hsl(158, 36%, 37%);
+    font-family: Fraunces;
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: 25px;
+  }
+  
+  .price {
+    font-family: Montserrat;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    position: relative;
+    left: 20px;
+    bottom: 7px;
+  }
+
+  .atc {
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    display: block;
+    font-family: Montserrat;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    padding: 12px 100px;
+    margin: 18px auto auto;
+  }
+
+  .atc:hover {
+    background-color: hsl(159, 36%, 20%);
+  }
+}
